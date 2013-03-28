@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ltgray {
+color: #999;
+}
+.ltgray2 {
+color: #666;
+}
+#wrapper {
+width: 1024px;
+background: #fff;
+margin: auto;
+padding-bottom: 60px;
+overflow: auto;
+position: relative;
+z-index: 10;
+box-shadow: 1px 1px 5px #e1e0e0;
+}
+#mission {
+float: left;
+width: 545px;
+height: 70px;
+padding-left: 23px;
+padding-top: 4px;
+}
+#contact {
+float: left;
+width: 108px;
+text-align: right;
+padding-top: 1em;
+color: #999;
+}
+#contact2 {
+float: left;
+width: 200px;
+padding-top: 1em;
+padding-left: 0.6em;
+}
+#history {
+width: 960px;
+margin-left: 40px;
+margin-right: 40px;
+clear: both;
+}
+#bio {
+width: 860px;
+margin-left: 40px;
+margin-right: 40px;
+padding: 50px;
+clear: both;
+}
+#bio img {
+padding: 0 50px 50px 0;
+float: left;
+}
+#blog {
+width: 800px;
+margin-left: 40px;
+margin-right: 100px;
+padding: 50px;
+clear: both;
+}
+#blog h3 {
+font-size: 1.3em;
+margin-bottom: 15px;
+}
+#blog a {
+text-decoration: underline;
+}
+#blog ol {
+list-style-type:decimal;
+margin: 25px 0 0 25px;
+}
+.job {
+width: 620px;
+overflow: auto;
+padding-top: 2.3em;
+}
+.date {
+text-align: right;
+width: 106px;
+float: left;
+color: #999;
+margin-top: 40px;
+border: 1px solid red;
+}
+.jobdetails {
+width: 500px;
+float: left;
+padding-left: 0.8em;
+}
+#rtcolumn {
+float: right;
+width: 270px;
+}
+#compskills, #references {
+padding-top: 2.3em;
+}
+#education {
+padding-top: 2.3em;
+}

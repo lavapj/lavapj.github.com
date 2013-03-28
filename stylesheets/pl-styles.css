@@ -1,0 +1,331 @@
+/* Table of Contents
+==================================================
+*/
+
+
+
+
+/* ============== Global Styles ============== */
+
+body, h1, h2, h3, h4, h5, p {
+	font-family: 'Open Sans', sans-serif; /*  font weights: 800,300,600  */
+}
+
+.ltgray {
+	color: #999999;
+}
+
+.btn {
+    border: none;
+}
+
+.i {
+	font-style: italic;
+}
+
+/* ============== Navigation ============== */
+
+#nav-wrapper {
+	width: 100%;
+	/*border: 1px solid red;*/
+	/*background: url("../images/icon-set.png") no-repeat right;*/
+	background-color: #352c2d;
+	position: fixed;
+	/*position: relative;*/
+	z-index: 100;
+
+}
+
+/*#nav-wrapper .sixteen {
+	border: 1px solid blue;
+}*/
+
+#nav {
+	text-align: center;
+	color: #fff;
+	min-height: 25px;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	letter-spacing: 0.07em;
+	/*border: 1px solid red;*/
+}
+
+#nav a {
+	color: #efeeee;
+	font-weight: 800;
+	text-decoration: none;
+	padding: 0 8px;
+}
+
+#icons {
+	position: absolute;
+	top: 0;
+	right:0;
+	opacity: 0.5;
+	margin: 2px 10px 0 0;
+	/*border: 1px solid red;*/
+	/*background: green;*/
+}
+
+/* ============== Header / Name Section ============== */
+
+#header {
+	min-height: 140px;
+	text-align: center;
+	font-size: 4.2em;
+	line-height: 0.9;
+	font-weight: 800;
+	font-style: italic;
+	letter-spacing: -0.05em;
+	padding-top: 80px;
+	color: #352c2d;
+	/*border: 1px solid red;*/
+	/*background: yellow;*/
+}
+
+h5#undername {
+	font-size: 0.29em;
+	letter-spacing: 0.03em;
+	font-weight: 300;
+/*	background: red;*/
+	margin: 10px;
+}
+
+/* ============== Projects Section ============== */
+
+#projects-wrapper {
+	width: 100%;
+	background: #e0dddd;
+	min-height: 250px;
+	padding: 20px 0;
+}
+
+#projects-wrapper h2 {
+	color: #fff;
+	height: 35px;
+	font-size: 2.3em;
+	font-style: italic;
+	font-weight: 800;
+	line-height: 35px;
+	letter-spacing: -0.05em;
+	/*text-align: center;*/
+	padding-bottom: 10px;
+}
+
+#projects-wrapper h3 {
+	color: #333333;
+	font-size: 1.1em;
+	font-weight: 500;
+	margin: 10px 0 0 10px;
+	/*border: 1px solid red;*/
+	line-height: 0.8em;
+}
+
+#projects-wrapper p {
+	color: #333333;
+	font-size: 0.85em;
+	/*font-style: italic;*/
+	line-height: 1.3;
+	width: 95%;
+	margin: 10px 0 0 10px;
+	letter-spacing: 0;
+}
+
+/* ============== About Section ============== */
+
+#about-wrapper {
+	width: 100%;
+	min-height: 800px;
+	/*max-height: 800px;*/
+	padding: 60px 0;
+	background: url("../images/patti-with-dogs.jpg") no-repeat;
+	background-size:cover;
+	-moz-background-size:cover;
+	/*background-color: #2d2a2a;*/
+}
+
+#about-wrapper .four h2 {
+	color: #d1d0d0;
+	font-size: 2.3em;
+	line-height: 1;
+	font-weight: 800;
+	font-style: italic;
+	letter-spacing: -0.05em;
+}
+
+#about-wrapper p {
+/*	width: 90%;*/
+	color: #333333;
+	font-style: italic;
+	background: white;
+	/*border: 1px solid red;*/
+	padding: 10px;
+	opacity: 0.85;
+}
+
+/* ============== Testimonials Section ============== */
+
+#testimonials-wrapper {
+	width: 100%;
+	background: #352c2d;
+	min-height: 140px;
+	padding: 40px 0;
+}
+
+#testimonials-wrapper p {
+	padding: 0 10%;
+	color: #ccc;
+	font-style: italic;
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1.4;
+	/*background: yellow;*/
+}
+
+/* ============== Resume Section ============== */
+
+#resume-wrapper {
+	width: 100%;
+	padding: 40px 0;
+	background: #fff;
+	position: relative;
+	/*border: solid 1px red;*/
+}
+
+#btn-download {
+	/*background-color: #e9bc06;*/
+	border: none;
+	width: 195px;
+	height: 33px;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px; /* future proofing */
+	-html-border-radius: 0 0 10px 10px; /* for old Konqueror browsers */
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 1.15em;
+	letter-spacing: 0.01em;
+	color: #fff;
+	font-weight: 800;
+	line-height: 33px;
+	padding-left: 15px;
+	background: #e9bc06 url("../images/icon-arrow.png") no-repeat right center;
+}
+
+#resume-wrapper h2 {
+	color: #d1d0d0;
+	font-size: 2.3em;
+	line-height: 1;
+	font-weight: 800;
+	font-style: italic;
+	letter-spacing: -0.05em;
+	/*border: solid 1px red;*/
+}
+
+#resume-wrapper h3 {
+	color: #d1d0d0;
+	font-size: 1.2em;
+	line-height: 1.5;
+	font-weight: 800;
+	padding-top: 40px;
+}
+
+#resume-wrapper .date {
+	/*background: green;*/
+	width: 80px;
+/*	margin: 0 20px 0 0;*/
+	float: left;
+	font-style: italic;
+	text-align: right;
+	padding-top: 40px;
+	/*border: 1px solid red;*/
+}
+
+#resume-wrapper .jobdetails {
+	margin-left: 110px;
+	/*border: 1px solid red;*/
+}
+
+#resume-wrapper ul.starlist {
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+}
+#resume-wrapper ul.starlist li {
+padding-left: 15px;
+/*margin-left: 15px;*/
+background-image: url(../images/asterisk.gif);
+background-repeat: no-repeat;
+background-position: 0 .5em;
+padding-right: 50px;
+line-height: 1.5;
+}
+
+#resume-wrapper a:link {
+text-decoration: none;
+color: #352c2d;
+}
+#resume-wrapper a:visited {
+color: #352c2d;
+}
+#resume-wrapper a:hover {
+color: #0066cc;
+}
+#resume-wrapper a:active {
+color: #0099ff;
+text-decoration: underline;
+}
+#resume-wrapper .ltgray {
+color: #999;
+}
+#resume-wrapper .ltgray2 {
+color: #666;
+}
+
+
+
+
+
+/* ============== Blog Section ============== */
+
+#blog-wrapper {
+	width: 100%;
+	padding: 40px 0;
+	background: #352c2d;
+	/*border: 1px solid yellow;*/
+}
+
+#blog-wrapper h2 {
+	color: #6f6566;
+	font-size: 2.3em;
+	line-height: 1;
+	font-weight: 800;
+	font-style: italic;
+	letter-spacing: -0.05em;
+	margin-left: 10px;
+	/*border: 1px solid green;*/
+}
+
+#blog-wrapper h3 {
+	color: #c6c5c5;
+	font-size: 1.5em;
+	line-height: 1;
+	font-weight: 800;
+	letter-spacing: -0.05em;
+	margin-top: 15px;
+	/*border: 1px solid green;*/
+}
+
+#blog-wrapper p {
+/*	width: 90%;*/
+	color: #fff;
+	/*font-style: italic;*/
+	/*border: 1px solid red;*/
+	padding: 10px 0;
+}
+
+
+
